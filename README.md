@@ -1,3 +1,22 @@
+# App Description
+
+A basic notes app  made with React, Vanilla CSS and using firebase database as backend. Users can add , edit and delete data. 
+
+The app doesnt work without firebase. Create an app and firestore firebase database.
+Add an fbconfig.js file and export firebaseConfig as follows
+
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+};
+
+export default firebaseConfig;
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
